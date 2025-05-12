@@ -1,0 +1,22 @@
+How it Works:
+Classes and Objects:
+
+The Book class represents a book with attributes like id, title, author, and a flag isBorrowed to track if the book is borrowed.
+
+The LibraryManagementSystem class manages the entire library system using an ArrayList to store the books and various methods to add, view, borrow, return, and remove books.
+
+ArrayList:
+
+An ArrayList<Book> is used to hold the list of books. It allows dynamic resizing and makes it easier to manage books in memory during the program's runtime.
+
+Menu-Driven Program:
+
+A menu is presented to the user with various options to add a book, view books, borrow/return books, and remove books from the library.
+
+The user can interact with the system through a simple text interface in the console.
+
+Borrow/Return:
+
+Borrowing a book marks it as borrowed and prevents it from being borrowed again until it’s returned.
+
+Returning a book marks it as available again for others to borrow.
